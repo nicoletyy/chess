@@ -1,0 +1,27 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/pikachupikachu/Desktop/vsCode/chess'
+g++-5 -g -std=c++14 -Wall -MMD -Werror=vla   -c -o main.o main.cc
+ 
+g++-5 -g -std=c++14 -Wall -MMD -Werror=vla   -c -o game.o game.cc
+g++-5 -g -std=c++14 -Wall -MMD -Werror=vla   -c -o board.o board.cc
+g++-5 -g -std=c++14 -Wall -MMD -Werror=vla   -c -o move.o move.cc
+g++-5 -g -std=c++14 -Wall -MMD -Werror=vla   -c -o cell.o cell.cc
+g++-5 -g -std=c++14 -Wall -MMD -Werror=vla   -c -o piece.o piece.cc
+g++-5 -g -std=c++14 -Wall -MMD -Werror=vla   -c -o player.o player.cc
+g++-5 -g -std=c++14 -Wall -MMD -Werror=vla   -c -o human.o human.cc
+g++-5 -g -std=c++14 -Wall -MMD -Werror=vla   -c -o computer1.o computer1.cc
+g++-5 -g -std=c++14 -Wall -MMD -Werror=vla   -c -o computer2.o computer2.cc
+g++-5 -g -std=c++14 -Wall -MMD -Werror=vla   -c -o computer3.o computer3.cc
+g++-5 -g -std=c++14 -Wall -MMD -Werror=vla   -c -o bishop.o bishop.cc
+ 
+g++-5 -g -std=c++14 -Wall -MMD -Werror=vla   -c -o king.o king.cc
+g++-5 -g -std=c++14 -Wall -MMD -Werror=vla   -c -o pawn.o pawn.cc
+g++-5 -g -std=c++14 -Wall -MMD -Werror=vla   -c -o queen.o queen.cc
+g++-5 -g -std=c++14 -Wall -MMD -Werror=vla   -c -o knight.o knight.cc
+g++-5 -g -std=c++14 -Wall -MMD -Werror=vla   -c -o rook.o rook.cc
+g++-5 -g -std=c++14 -Wall -MMD -Werror=vla   -c -o textdisplay.o textdisplay.cc
+g++-5 -g -std=c++14 -Wall -MMD -Werror=vla   -c -o window.o window.cc
+g++-5 -g -std=c++14 -Wall -MMD -Werror=vla   -c -o graphicsdisplay.o graphicsdisplay.cc
+g++-5 -g -std=c++14 -Wall -MMD -Werror=vla main.o game.o board.o move.o cell.o piece.o player.o human.o computer1.o computer2.o computer3.o bishop.o king.o pawn.o queen.o knight.o rook.o textdisplay.o window.o graphicsdisplay.o -o chess -lX11
+make: Leaving directory `/Users/pikachupikachu/Desktop/vsCode/chess'
+ 
